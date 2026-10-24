@@ -22,3 +22,26 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- migração 2026-10: segredos e lixo ---
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+credentials/
+credenciais.local.md
+*credential*.json
+service-account*.json
+node_modules/
+.DS_Store
+*.db-wal
+*.db-shm
+.swarm/
+ruvector.db
+agentdb.rvf
+agentdb.rvf.lock
+__pycache__/
+*.pyc
